@@ -91,11 +91,11 @@ gh auth refresh --scopes repo,read:org,workflow # Add missing scopes
 
 | User intent | Load |
 | :--- | :--- |
-| Create/list/view/edit/close issues | `gh issue [list/view/create]` |
-| Create/list/view/review/merge PRs | `gh pr [list/view/create/merge]` |
+| Create/list/view/edit/close issues | `gh issue [list/view/create/edit/close]` |
+| Create/list/view/review/merge PRs | `gh pr [list/view/create/review/merge]` |
 | List runs, view logs, watch workflows | `gh run [list/view/watch]` |
 | Create/fork/clone/view repos | `gh repo [create/fork/clone]` |
-| Create/list/view/edit/delete gists | `gh gist [create/list/view]` |
+| Create/list/view/edit/delete gists | `gh gist [create/list/view/edit/delete]` |
 
 ### Calibration Rules
 
