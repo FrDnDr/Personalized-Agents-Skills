@@ -1,12 +1,4 @@
----
-name: git
-description: 'GitHub CLI operations via `gh` for issues, PRs, Actions, releases, and REST/GraphQL API with `--json`/`--jq` parsing. Triggers on: "create an issue", "submit a PR", "check CI status", "why did CI fail", "merge a PR", or pasted GitHub URLs.'
-metadata:
-  version: 1.1.1
-  category: review
-  tags: [github, cli, issues, pull-requests]
-  difficulty: intermediate
----
+
 
 | name | git |
 | :--- | :--- |
