@@ -1,5 +1,5 @@
 ---
-name: github
+name: git
 description: 'GitHub CLI operations via `gh` for issues, PRs, Actions, releases, and REST/GraphQL API with `--json`/`--jq` parsing. Triggers on: "create an issue", "submit a PR", "check CI status", "why did CI fail", "merge a PR", or pasted GitHub URLs.'
 metadata:
   version: 1.1.1
@@ -8,7 +8,7 @@ metadata:
   difficulty: intermediate
 ---
 
-| name | github |
+| name | git |
 | :--- | :--- |
 | **description** | GitHub CLI operations via `gh` for issues, PRs, Actions, releases, and REST/GraphQL API with `--json`/`--jq` parsing. Triggers on: "create an issue", "submit a PR", "check CI status", "why did CI fail", "merge a PR", or pasted GitHub URLs. |
 | **metadata** | <table><tr><th>version</th><th>category</th><th>tags</th><th>difficulty</th></tr><tr><td>1.1.1</td><td>review</td><td><code>github</code> <code>cli</code> <code>issues</code> <code>pull-requests</code></td><td>intermediate</td></tr></table> |
