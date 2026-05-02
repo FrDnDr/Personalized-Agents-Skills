@@ -15,6 +15,7 @@ _Note: This is on my personal preference, so if you want to reference this, be s
 │   ├── security.md                     # Auth rules, secrets management, input validation, OWASP basics
 │   ├── testing.md                      # Unit, integration, e2e test conventions, coverage expectations
 │   ├── observability.md                # Logging format, metrics, alerting, error tracking setup
+│   ├── reasoning.md                    # Pre-execution thinking, task breakdown, requirements analysis, edge case identification, execution planning (like Claude)
 │   ├── code-review.md                  # Pre-commit checklist, untracked file audit, code quality gates, diff review rules
 │   └── project-orchestration.md        # Which skills to load and in what order per project type
 │
@@ -87,4 +88,3 @@ _Note: This is on my personal preference, so if you want to reference this, be s
     ├── bug-fix.md                      # AFK prompt template for diagnosing and fixing a bug or issue
     └── project-scaffold.md             # AFK prompt template for bootstrapping a new project from scratch
 ```
-
