@@ -1,4 +1,9 @@
 \.history
 .env
 *.env
-!.env.example
+!.env.exampleskills/
+
+.pi
+skills/
+setup-agent-skills.ps1
+
