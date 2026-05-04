@@ -20,10 +20,16 @@ _Note: This is on my personal preference, so if you want to reference this, be s
 │   └── project-orchestration.md        # Which skills to load and in what order per project type
 │
 ├── frontend/
-│   ├── web-ui.md                       # React/Next.js conventions, component structure, routing patterns
-│   ├── mobile-ui.md                    # React Native or Flutter conventions, screen structure, navigation
-│   ├── state-management.md             # When to use local vs global state, preferred libraries (Zustand, Redux)
-│   └── ui-conventions.md               # Platform-specific patterns, iOS/Android design rules, accessibility
+│   ├── web-ui.md                       # React/Next.js App Router conventions, component structure, Tailwind, server vs client components
+│   ├── mobile-ui.md                    # React Native conventions, screen structure, SafeAreaView, FlatList, platform-specific extensions
+│   ├── state-management.md             # State decision tree, Zustand for UI state, React Query for server data, React Hook Form for forms
+│   ├── ui-conventions.md               # Platform-specific UI rules, iOS HIG, Android Material 3, platform-specific patterns
+│   ├── design-system.md                # Design tokens (color, spacing, radius), component variants, and dark mode rules
+│   ├── accessibility.md                # Keyboard navigation, focus states, contrast thresholds, and semantic HTML + ARIA rules
+│   ├── interaction-patterns.md         # Loading/empty/error states, form validation UX, optimistic updates, and toast patterns
+│   ├── responsive-layout.md            # Breakpoint strategy, container widths, and mobile-first spacing/layout rules
+│   ├── content-ux.md                   # Microcopy style (labels, errors, CTA text), truncation, and localization conventions
+│   └── visual-hierarchy.md             # Typography scale, spacing rhythm, and information prioritization rules
 │
 ├── backend/
 │   ├── rest-api.md                     # FastAPI conventions, router structure, dependency injection, middleware
