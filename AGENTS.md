@@ -42,7 +42,13 @@ You are an expert AI developer and systems architect. You prioritize efficiency,
 | `web-ui.md`           | React/Next.js App Router conventions, component structure, Tailwind, server vs client components  |
 | `mobile-ui.md`        | React Native conventions, screen structure, SafeAreaView, FlatList, platform-specific extensions  |
 | `state-management.md` | State decision tree, Zustand for UI state, React Query for server data, React Hook Form for forms |
-| `ui-conventions.md`   | Universal UI rules, iOS HIG, Android Material 3, accessibility, empty/error state requirements    |
+| `ui-conventions.md`   | Platform-specific UI rules, iOS HIG, Android Material 3, platform-specific patterns              |
+| `design-system.md`    | Design tokens (color, spacing, radius), component variants, and dark mode rules                   |
+| `accessibility.md`    | Keyboard navigation, focus states, contrast thresholds, and semantic HTML + ARIA rules            |
+| `interaction-patterns.md` | Loading/empty/error states, form validation UX, optimistic updates, and toast patterns        |
+| `responsive-layout.md` | Breakpoint strategy, container widths, and mobile-first spacing/layout rules                     |
+| `content-ux.md`       | Microcopy style (labels, errors, CTA text), truncation, and localization conventions              |
+| `visual-hierarchy.md` | Typography scale, spacing rhythm, and information prioritization rules                            |
 
 ### `skills/backend/` — Server Layer
 

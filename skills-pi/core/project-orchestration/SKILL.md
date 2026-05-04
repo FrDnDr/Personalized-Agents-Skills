@@ -48,6 +48,12 @@ Each domain defines a curated stack of skills optimized for that specific archit
 ```
 reasoning
 ├── frontend/web-ui
+├── frontend/design-system
+├── frontend/accessibility
+├── frontend/interaction-patterns
+├── frontend/responsive-layout
+├── frontend/content-ux
+├── frontend/visual-hierarchy
 ├── frontend/state-management
 ├── backend/rest-api
 ├── backend/auth
@@ -86,6 +92,12 @@ git
 ```
 reasoning
 ├── frontend/mobile-ui
+├── frontend/design-system
+├── frontend/accessibility
+├── frontend/interaction-patterns
+├── frontend/responsive-layout
+├── frontend/content-ux
+├── frontend/visual-hierarchy
 ├── frontend/state-management
 ├── frontend/ui-conventions
 ├── backend/rest-api
@@ -163,6 +175,8 @@ reasoning
 ├── data-analytics/dashboarding
 ├── backend/rest-api
 ├── frontend/web-ui
+├── frontend/design-system
+├── frontend/visual-hierarchy
 ├── database/schema-design
 ├── database/data-modeling
 ├── cloud/docker
@@ -207,6 +221,7 @@ Answer these questions before loading any skills:
 1. Is there a user interface?
    - Web → load frontend/web-ui
    - Mobile → load frontend/mobile-ui
+   - Is UI/UX polish required? → load frontend/design-system, accessibility, interaction-patterns, responsive-layout, content-ux, visual-hierarchy
    - None → skip frontend skills
 
 2. Is there a backend or API?
