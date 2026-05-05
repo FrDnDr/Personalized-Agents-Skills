@@ -49,8 +49,7 @@ _Note: This is on my personal preference, so if you want to reference this, be s
 │   ├── data-quality.md                 # Validation rules, null checks, schema enforcement, data testing
 │   ├── warehouse.md                    # dbt project structure, Snowflake/BigQuery conventions, model layering
 │   ├── streaming.md                    # Kafka topic conventions, consumer/producer patterns, event schemas
-│   └── data-lake/
-│       └── .keep                       # Placeholder — structure and conventions TBD when lake is implemented
+│   └── data-lake.md                    # Storage layering, file formats, partitioning, metadata cataloging
 │
 ├── data-analytics/
 │   ├── data-retrieval.md               # Querying from DBs, APIs, flat files (CSV/Excel/JSON), web scraping basics

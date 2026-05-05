@@ -118,6 +118,8 @@ reasoning
 ├── data-engineering/orchestration
 ├── data-engineering/data-quality
 ├── data-engineering/warehouse
+├── data-engineering/streaming        ← if event-driven
+├── data-engineering/data-lake         ← if lake storage needed
 ├── database/schema-design
 ├── database/data-modeling
 ├── cloud/docker
@@ -141,6 +143,8 @@ reasoning
 ├── data-analytics/dashboarding
 ├── data-analytics/reporting
 ├── data-analytics/metrics-and-kpis
+├── data-analytics/statistical-analysis  ← if hypothesis testing needed
+├── data-analytics/spreadsheet           ← if Excel/Sheets work needed
 ├── data-analytics/notebook-conventions
 ├── database/sql
 code-review

@@ -68,7 +68,7 @@ You are an expert AI developer and systems architect. You prioritize efficiency,
 | `migrations.md`    | Alembic conventions, file naming, upgrade/downgrade structure, migration workflow, production rules   |
 | `data-modeling.md` | Entity modeling, 1NF/2NF/3NF normalization, relationship patterns, relational vs NoSQL decision table |
 
-### `skills/data-engineering/` — Pipeline Layer _(pending)_
+### `skills/data-engineering/` — Pipeline Layer
 
 | File               | Purpose                                                                  |
 | ------------------ | ------------------------------------------------------------------------ |
@@ -77,9 +77,9 @@ You are an expert AI developer and systems architect. You prioritize efficiency,
 | `data-quality.md`  | Validation rules, null checks, schema enforcement, data testing          |
 | `warehouse.md`     | dbt project structure, Snowflake/BigQuery conventions, model layering    |
 | `streaming.md`     | Kafka topic conventions, consumer/producer patterns, event schemas       |
-| `data-lake/.keep`  | Placeholder — structure TBD                                              |
+| `data-lake.md`     | Storage layering, file formats, partitioning, metadata cataloging, governance |
 
-### `skills/data-analytics/` — Analytics Layer _(pending)_
+### `skills/data-analytics/` — Analytics Layer
 
 | File                      | Purpose                                                                   |
 | ------------------------- | ------------------------------------------------------------------------- |
